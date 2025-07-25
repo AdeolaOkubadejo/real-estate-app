@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# Real Estate App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🎥 Preview
+![App Preview](./preview.gif)
 
-## Get started
 
-1. Install dependencies
+A modern, user friendly real estate mobile application built with **Expo React Native**, **Appwrite**, and **Google Authentication**. This app is designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript for a seamless and scalable experience.
 
+## 🚀 Features
+- **Secure Google Authentication**: Seamless and secure user sign-ins powered by Google’s OAuth service.
+- **Dynamic Home Page**: Showcases the latest and recommended properties with advanced search and filtering capabilities.
+- **Intuitive Explore Page**: Browse a wide range of properties with a clean, user-friendly interface.
+- **Detailed Property Pages**: Comprehensive property details, including high-quality images and key information.
+- **Customizable Profile Page**: Effortlessly manage user settings and personalize profiles.
+- **Efficient Data Fetching**: Custom-built solution inspired by TanStack Query for fast, optimized API calls.
+- **Scalable Architecture**: Modular, reusable code design ensures easy maintenance and feature expansion.
+
+## 📸 Screenshots
+
+![Google Auth](./Screenshot1.png)
+
+
+![Home Page](./Screenshot2.png)
+
+
+![Explore Page](./Screenshot3.png)
+
+
+![Property Details](./Screenshot4.png)
+
+
+![Profile Page](./Screenshot5.png)
+
+
+
+## 🛠️ Tech Stack
+- **Frontend**: Expo, React Native, React Navigation (dynamic routing), NativeWind (Tailwind CSS)
+- **Backend**: Appwrite for robust data storage and management
+- **Authentication**: Google OAuth for secure logins
+- **Data Management**: Custom data-fetching solution inspired by TanStack Query
+- **Tools**: Git, GitHub, npm
+
+## 📦 Getting Started
+1. **Clone the Repository**:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/AdeolaOkubadejo/real-estate-app.git
